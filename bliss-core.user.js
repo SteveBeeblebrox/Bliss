@@ -13,7 +13,7 @@
 
     window['$bliss'] = new Proxy({}, {
         get(target, property) {
-            if(/\$\d+/.test(property)) return target.selectionHistory.at(-(Number(property.substring(1)) + 1))
+            if(/^\$\d+$/.test(property)) return target.selectionHistory.at(-(Number(property.substring(1)) + 1))
             return target[property]
         }
     })
