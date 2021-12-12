@@ -1,8 +1,8 @@
 # Bliss
 A collection of userscripts for Chrome
 ## `bliss-console`
-Opens up a simple JavaScript console. (Trigger with F10)
+Press F10 to opens up a simple JavaScript console.
 ## `bliss-source-viewer`
-Shows the current HTML of the entire document. (Trigger with F9)
+Press F9 to show the current HTML of the entire document. (Trigger with F9)
 ## `bliss-core`
-Adds the `$bliss` global variable with helper functions as well as the ability to click (Ctrl+Shift+Meta+Left Click) on elements to get references to them.
+Adds the `$bliss` global variable with DOM helper functions. Ctrl+Shift+Meta+Left Click on an element reference it in the clonsole using `$bliss.$0`. Use the `include` function to load an additional script file.
