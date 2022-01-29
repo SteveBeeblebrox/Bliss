@@ -1,7 +1,7 @@
 # Bliss
 A collection of userscripts for Chrome
 ## `bliss-console`
-Press F10 to opens up a simple JavaScript console. Type code and press Ctrl+Enter to run it. Use Ctrl+Up/Down Arrows to navigate execution history. When possible, calls to `console.log` pretty-print arguments.
+Press F10 to open up a simple JavaScript console. Type code and press Ctrl+Enter to run it. Use Ctrl+Up/Down Arrows to navigate execution history. When possible, calls to `console.log` pretty-print arguments.
 ## `bliss-source-viewer`
 Press F9 to show the current HTML of the entire document.
 ## `bliss-core`
