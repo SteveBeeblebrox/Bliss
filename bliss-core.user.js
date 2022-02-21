@@ -138,7 +138,7 @@
             selector = interpolate(selector, [...arguments].slice(1))
             startNode = document
         }
-        return __bliss.__$$it = new ElementArrayProxy(startNode.querySelectorAll(selector));
+        return $bliss.$$it = new ElementArrayProxy(startNode.querySelectorAll(selector));
     }
 
     ShadowRoot.prototype.$bliss.$$self = SVGElement.prototype.$bliss.$$self = HTMLElement.prototype.$bliss.$$self = function(selector) {
